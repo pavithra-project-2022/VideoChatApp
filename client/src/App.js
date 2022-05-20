@@ -14,8 +14,10 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    width: '600px',
-    border: '2px solid black',
+    width: '500px',
+    border: '3px solid black',
+    backgroundColor: 'transparent',
+    fontWeight: '900',
 
     [theme.breakpoints.down('xs')]: {
       width: '90%',
@@ -38,7 +40,7 @@ const App = () => {
   return (
     <div className={classes.wrapper}>
       <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography variant="h2" align="center">Video Chat</Typography>
+        <Typography variant="h3" align="center">Video Chat</Typography>
       </AppBar>
       <VideoPlayer />
       <Sidebar>

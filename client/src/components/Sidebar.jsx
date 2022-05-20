@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
   },
   gridContainer: {
     width: '100%',
+
     [theme.breakpoints.down('xs')]: {
       flexDirection: 'column',
     },
@@ -21,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
     width: '600px',
     margin: '35px 0',
     padding: 0,
+
     [theme.breakpoints.down('xs')]: {
       width: '80%',
     },
